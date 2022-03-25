@@ -463,8 +463,11 @@ footer {
 /* LINKBOXES */
 .linkboxes ul {
     padding-inline-start: 0px !important;
-    color: rgb(32, 33, 36);
     font-weight: 300 !important;
+}
+
+.linkboxes ul a {
+    color: rgb(32, 33, 36) !important;
 }
 
 .linkboxes ul h3 {

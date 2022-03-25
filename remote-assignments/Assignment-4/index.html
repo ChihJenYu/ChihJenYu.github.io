@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Developers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="site-title">
+            <a href="#"><img src="./img/google-developers.png" alt="Google Developers">
+            </a>
+        </div>
+        <div class="nav-menu">
+            <ul class="menu-list">
+                <li class="menu-list-item nav-products">
+                    <a href="#">Products</a>
+                    <div style="display: none;" class="products-dropdown">
+                        <div class="nav-dropdown-content-container">
+                            <ul class="linkboxes-list">
+                                <li class="linkbox">
+                                    <h3 class="linkbox-title">Develop</h3>
+                                    <ul class="linkbox-sublist">
+                                        <li class="linkbox-item"><a href="#">Android</a></li>
+                                        <li class="linkbox-item"><a href="#">Chrome OS</a></li>
+                                        <li class="linkbox-item"><a href="#">Cloud</a></li>
+                                        <li class="linkbox-item"><a href="#">Firebase</a></li>
+                                        <li class="linkbox-item"><a href="#">Flutter</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Assistant</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Workspace</a></li>
+                                        <li class="linkbox-item"><a href="#">Maps Platform</a></li>
+                                        <li class="linkbox-item"><a href="#">TensorFlow</a></li>
+                                        <li class="linkbox-item"><a href="#">Web</a></li>
+                                        <li class="linkbox-item"><a href="#">YouTube</a></li>
+                                    </ul>
+                                </li>
+                                <li class="linkbox">
+                                    <h3 class="linkbox-title">Grow</h3>
+                                    <ul class="linkbox-sublist">
+                                        <li class="linkbox-item"><a href="#">Firebase</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Ads</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Analytics</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Play</a></li>
+                                        <li class="linkbox-item"><a href="#">Search</a></li>
+                                        <li class="linkbox-item"><a href="#">Web Push and Notification APIs</a></li>
+                                    </ul>
+                                </li>
+                                <li class="linkbox">
+                                    <h3 class="linkbox-title">Earn</h3>
+                                    <ul class="linkbox-sublist">
+                                        <li class="linkbox-item"><a href="#">AdMob</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Ads API</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Play Console</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Play</a></li>
+                                        <li class="linkbox-item"><a href="#">Google Play Billing</a></li>
+                                        <li class="linkbox-item"><a href="#">Interactive Media Ads</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list-item"><a href="#">Events</a></li>
+                <li class="menu-list-item"><a href="#">Learn</a></li>
+                <li class="menu-list-item"><a href="#">Developer Profile</a></li>
+                <li class="menu-list-item nav-more">
+                    <a href="#">More</a>
+                    <div style="display: none;" class="more-dropdown">
+                        <div class="nav-dropdown-content-container">
+                            <ul class="more-list">
+                                <li>
+                                    <a href="#">Developer Communities</a>
+                                </li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-list-item">
+                    <input type="text" placeholder="Search">
+                </li>
+                <li class="menu-list-item">
+                    <select name="language" id="language-dropdown">
+                        <option value="en">English</option>
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="de">Deutsch</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="banner">
+            <p class="banner-message">Google is committed to advancing racial equity for Black communities. <span><a
+                        href="#">See how.</a></span></p>
+        </div>
+        <div class="welcome">
+            <div class="registration-content-container">
+                <div class="registration-card">
+                    <h1 class="registration-is-now-open">Registration is now open</h1>
+                    <div class="registration-detail">
+                        <h2>Google I/O 2022<br>Live from Shoreline. Join online May 11-12.</h2>
+                        <a class="btn register-btn blue-bg-white" href="#">Register now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="narrow-content-container">
+                <h2 class="products-title">Build <strong>anything</strong> with Google</h2>
+                <div class="content-boxes">
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://developer.android.com/images/brand/Android_Robot_480.png"
+                                        alt="android" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Android</div>
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_64dp.png"
+                                        alt="gcp" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Google Cloud</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/firebase_64dp.png"
+                                        alt="firebase" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Firebase</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/flutter_64dp.png"
+                                        alt="flutter" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Flutter</div>
+
+                        </div>
+                    </div>
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/assistant_64dp.png"
+                                        alt="assistant" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Google Assistant</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/maps_64dp.png"
+                                        alt="maps" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Maps Platform</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://developers.google.com/site-assets/images/products/tensorflow-logo-196_480.png"
+                                        alt="tensorflow" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Tensorflow</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://developers.google.com/web/images/web-fundamentals-icon192x192_480.png"
+                                        alt="web" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Web</div>
+
+                        </div>
+                    </div>
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="./img/google-ads.png" alt="ads" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Google Ads</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://developers.google.com/homepage-assets/images/chromeos-logo_480.png"
+                                        alt="chromeos" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Chrome OS</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/play_prism_64dp.png"
+                                        alt="play" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">Google Play</div>
+
+                        </div>
+                        <div class="content-box">
+                            <div class="product-content-icon-wrapper">
+                                <a href="#">
+                                    <img src="https://www.gstatic.com/images/branding/product/2x/youtube_64dp.png"
+                                        alt="youtube" class="product-content-icon-img">
+                                </a>
+                            </div>
+                            <div class="product-content-description">YouTube</div>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn more-products blue-bg-white">View all developer products</a>
+            </div>
+        </div>
+        <div class="info">
+            <div class="wide-content-container">
+                <div class="content-boxes">
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="info-box-header">
+                            </div>
+                            <div class="info-box-description">
+                                <h3>
+                                    <a href="#" class="info-box-description-title">Events</a>
+                                </h3>
+                                <div class="info-box-description-content">
+                                    Bringing developers together in-person and online. Stay in the know about
+                                    upcoming
+                                    events, catch up on content you
+                                    missed, and connect with Google experts.
+                                </div>
+                                <div class="btn info-box-description-cta white-bg-blue-border">
+                                    <a href="#">See events</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="info-box-header"></div>
+                            <div class="info-box-description">
+                                <h3>
+                                    <a href="#" class="info-box-description-title">Community</a>
+                                </h3>
+                                <div class="info-box-description-content">
+                                    Connect with fellow developers and startups in your area, hear from industry
+                                    experts, share your skills, and learn new
+                                    ones.
+                                </div>
+                                <div class="btn info-box-description-cta white-bg-blue-border">
+                                    <a href="#">Find community</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="wide-content-container">
+                <h2 class="news-title">News</h2>
+                <div class="content-boxes">
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developers.google.com/site-assets/images/news/odml_logo_480.png"
+                                    alt="icon#1">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">Build with On-Device ML</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        Address common challenges in your apps with on-device machine learning. Explore
+                                        Google's solutions and tools like
+                                        turn-key APIs, real-world examples from developers, and more.
+                                    </div>
+                                </div>
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developer.android.com/images/brand/Android_Robot_480.png"
+                                    alt="icon#2">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">Beta 1 update for 12L feature drop</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        12L streamlines the UI for large screens. Read more about what's in the release
+                                        and
+                                        get your apps ready for testing and
+                                        feedback.
+                                    </div>
+                                </div>
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://www.gstatic.com/images/branding/product/2x/flutter_64dp.png"
+                                    alt="icon#3">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">Now available: Flutter 2.10</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        Flutter 2.10 includes stable support for production-level Windows apps, new
+                                        features, performance improvements, and bug
+                                        fixes.
+                                    </div>
+                                </div>
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developers.google.com/site-assets/images/news/solution_challenge_news.svg"
+                                    alt="icon#4">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">GDSC 2022 Solution Challenge</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        Engage with Google Developer Student Clubs (GDSC) to solve and build for the
+                                        United
+                                        Nations' Sustainable Development
+                                        Goals using Google technologies. Promote employment for all, economic growth,
+                                        and
+                                        climate action. Submit projects by
+                                        March 31.
+                                    </div>
+                                </div>
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Register now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developers.google.com/site-assets/images/news/play_logo_480.png"
+                                    alt="item#5">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">Submit your Data safety form today</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        In the upcoming Data safety section in Google Play, users can learn more about
+                                        an
+                                        app's data safety practices before
+                                        they download the app. Complete and submit your Data safety form in your Google
+                                        Play
+                                        Console to help users understand
+                                        your privacy and security practices.
+                                    </div>
+                                </div>
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developers.google.com/site-assets/images/products/tensorflow-logo-196_480.png"
+                                    alt="item#6">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">Learn ML in JavaScript</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        Build next generation web apps that use object recognition, text understanding,
+                                        and
+                                        more with TensorFlow.js, Google’s
+                                        production-ready Machine Learning library for JavaScript.
+                                    </div>
+                                </div>
+
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Enroll now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developers.google.com/site-assets/images/news/hashcode_480.png"
+                                    alt="item#7">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a class="news-box-description-title">Register for Hash Code 2022</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        Registration is now open for Hash Code, Google's team coding competition.
+                                        Developers
+                                        of all skill levels can apply to
+                                        team up and solve a real Google engineering problem. Deadline is February 23.
+                                    </div>
+                                </div>
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Register now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="news-box-icon">
+                                <img src="https://developers.google.com/community/images/card_illo_entrepreneurs_480.png"
+                                    alt="item#8">
+                            </div>
+                            <div class="news-box-description">
+                                <div class="news-box-description-body">
+                                    <h3>
+                                        <a href="#" class="news-box-description-title">Apply for Google for Startups
+                                            Accelerator:
+                                            Climate Change</a>
+                                    </h3>
+                                    <div class="news-box-description-content">
+                                        Applications for Google for Startups Accelerator: Climate Change are now open.
+                                        Sustainable technology startups across
+                                        North America may apply starting March 1. The program commences June 7.
+                                    </div>
+                                </div>
+
+                                <div class="news-box-description-cta">
+                                    <a class="btn white-bg-blue-borderless" href="#">Apply now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="find-experts">
+            <div class="narrow-content-container">
+                <h2 class="find-experts-title">Find a Google developer expert</h2>
+                <p class="find-experts-caption">Browse our directory of developer experts who have been recognized by
+                    Google for their depth of tech knowledge and
+                    skills.</p>
+                <a href="#" class="btn find-experts-cta white-bg-blue-border">View all developer experts</a>
+                <div class="content-boxes">
+                    <div class="content-box-row">
+                        <div class="content-box">
+                            <div class="expert-profile">
+                                <div class="expert-avatar"></div>
+                                <h3 class="expert-name">Kenneth Rohde Christiansen</h3>
+                                <p class="expert-location">Søborg / Copenhagen Denmark</p>
+                                <p class="expert-skill">
+                                    <span>Expertise: </span>
+                                    <br>
+                                    <span class="expert-skill-expertise">Web Technologies</span>
+                                </p>
+                            </div>
+                            <a class="btn expert-view-cta white-bg-blue-borderless" href="#">View Profile</a>
+                        </div>
+                        <div class="content-box">
+                            <div class="expert-profile">
+                                <div class="expert-avatar"></div>
+                                <h3 class="expert-name">Kenneth Rohde Christiansen</h3>
+                                <p class="expert-location">Søborg / Copenhagen Denmark</p>
+                                <p class="expert-skill">
+                                    <span>Expertise: </span>
+                                    <br>
+                                    <span class="expert-skill-expertise">Web Technologies</span>
+                                </p>
+                            </div>
+                            <a class="btn expert-view-cta white-bg-blue-borderless" href="#">View Profile</a>
+                        </div>
+                        <div class="content-box">
+                            <div class="expert-profile">
+                                <div class="expert-avatar"></div>
+                                <h3 class="expert-name">Kenneth Rohde Christiansen</h3>
+                                <p class="expert-location">Søborg / Copenhagen Denmark</p>
+                                <p class="expert-skill">
+                                    <span>Expertise: </span>
+                                    <br>
+                                    <span class="expert-skill-expertise">Web Technologies</span>
+                                </p>
+                            </div>
+                            <a class="btn expert-view-cta white-bg-blue-borderless" href="#">View Profile</a>
+                        </div>
+                        <div class="content-box">
+                            <div class="expert-profile">
+                                <div class="expert-avatar"></div>
+                                <h3 class="expert-name">Kenneth Rohde Christiansen</h3>
+                                <p class="expert-location">Søborg / Copenhagen Denmark</p>
+                                <p class="expert-skill">
+                                    <span>Expertise: </span>
+                                    <br>
+                                    <span class="expert-skill-expertise">Web Technologies</span>
+                                </p>
+                            </div>
+                            <a class="btn expert-view-cta white-bg-blue-borderless" href="#">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="linkboxes">
+            <div class="footer-content-container">
+                <ul class="linkboxes-list">
+                    <li class="linkbox">
+                        <h3 class="linkbox-title">Connect</h3>
+                        <ul class="linkbox-sublist">
+                            <li class="linkbox-item"><a href="#">Blog</a></li>
+                            <li class="linkbox-item"><a href="#">Facebook</a></li>
+                            <li class="linkbox-item"><a href="#">Medium</a></li>
+                            <li class="linkbox-item"><a href="#">Twitter</a></li>
+                            <li class="linkbox-item"><a href="#">YouTube</a></li>
+                        </ul>
+                    </li>
+                    <li class="linkbox">
+                        <h3 class="linkbox-title">Programs</h3>
+                        <ul class="linkbox-sublist">
+                            <li class="linkbox-item"><a href="#">Women Techmakers</a></li>
+                            <li class="linkbox-item"><a href="#">Google Developer Groups</a></li>
+                            <li class="linkbox-item"><a href="#">Google Developers Experts</a></li>
+                            <li class="linkbox-item"><a href="#">Accelerators</a></li>
+                            <li class="linkbox-item"><a href="#">Google Developer Student Clubs</a></li>
+                        </ul>
+                    </li>
+                    <li class="linkbox">
+                        <h3 class="linkbox-title">Developer consoles</h3>
+                        <ul class="linkbox-sublist">
+                            <li class="linkbox-item"><a href="#">Google API Console</a></li>
+                            <li class="linkbox-item"><a href="#">Google Cloud Platform Console</a></li>
+                            <li class="linkbox-item"><a href="#">Google Play Console</a></li>
+                            <li class="linkbox-item"><a href="#">Firebase Console</a></li>
+                            <li class="linkbox-item"><a href="#">Actions on Google Console</a></li>
+                            <li class="linkbox-item"><a href="#">Cast SDK Developer Console</a></li>
+                            <li class="linkbox-item"><a href="#">Chrome Web Store Dashboard</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="footer-content-container">
+                <div class="site-title">
+                    <a href="#"><img src="./img/google-developers.png" alt="Google Developers">
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item"><a href="#">Android</a></li>
+                        <li class="menu-list-item"><a href="#">Chrome</a></li>
+                        <li class="menu-list-item"><a href="#">Firebase</a></li>
+                        <li class="menu-list-item"><a href="#">Google Cloud Platform</a></li>
+                        <li class="menu-list-item"><a href="#">All products</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-content-container">
+                <div class="terms-privacy">Terms | Privacy</div>
+                <div class="footer-ctas">
+                    <ul class="menu-list">
+                        <li class="menu-list-item subs">
+                            <label for="footer-subs-cta">Sign up for the Google Developers newsletter</label>
+                            <a href="#" class="btn blue-bg-white" id="footer-subs-cta">Subscribe</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <select name="language" id="language-dropdown">
+                                <option value="en">English</option>
+                                <option value="id">Bahasa Indonesia</option>
+                                <option value="de">Deutsch</option>
+                                <option value="es">Español</option>
+                                <option value="fr">Français</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
